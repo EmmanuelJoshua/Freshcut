@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 const white = Colors.white;
 const black = Colors.black;
+const kSunGold = Color(0xFFF2BC3D);
 
 Map<int, Color> color = {
   50: black.withOpacity(0.1),
@@ -15,7 +16,7 @@ Map<int, Color> color = {
   800: black.withOpacity(0.9),
   900: black,
 };
-MaterialColor kPrimaryColor = MaterialColor(0xff121212, color);
+MaterialColor kPrimaryColor = MaterialColor(0xff000000, color);
 
 ThemeData get appTheme {
   return ThemeData(
@@ -24,5 +25,7 @@ ThemeData get appTheme {
     primarySwatch: kPrimaryColor,
     primaryColor: black,
     scaffoldBackgroundColor: black,
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: Colors.black.withOpacity(0)),
   );
 }

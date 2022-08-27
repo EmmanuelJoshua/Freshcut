@@ -12,11 +12,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
 
   # ui packages
+  flutter_svg: ^1.0.3
   gap: ^2.0.0
+  glassmorphism: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -32,12 +32,13 @@ flutter:
   assets:
     # Add assets from the images directory to the application.
     - assets/images/
+    - assets/svgs/
+    - assets/gifs/
 
   fonts:
     # Add fonts to the application.
     - family: Grotesk
       fonts:
         - asset: assets/fonts/AktivGrotesk-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/AktivGrotesk-Bold.ttf
+        - asset: assets/fonts/AktivGrotesk-Medium.ttf
           weight: 700
