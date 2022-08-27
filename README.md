@@ -9,3 +9,7 @@ Demo UI based on https://www.figma.com/file/H5Q656sKyzmiFdfuDHNHwu/Trending-Toda
 ## Assets
 
 The `assets` directory houses images, fonts, and gifs
+
+## App screenshots
+
+![image1](./images/image1.jpg)
