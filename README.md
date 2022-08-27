@@ -12,4 +12,4 @@ The `assets` directory houses images, fonts, and gifs
 
 ## App screenshots
 
-![image1](./images/image1.jpg)
+<img src="./images/image1.jpg" alt="image1" width="250"/>
