@@ -161,14 +161,14 @@ class _HomePageState extends State<HomePage> {
               ),
               child: BackdropFilter(
                 filter: ImageFilter.blur(
-                  sigmaX: 10,
-                  sigmaY: 10,
+                  sigmaX: 6.5,
+                  sigmaY: 6.5,
                 ),
                 child: Container(
                   height: 88,
                   width: MediaQuery.of(context).size.width,
                   decoration: BoxDecoration(
-                    color: black.withOpacity(0.7),
+                    color: black.withOpacity(0.8),
                     borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(24),
                       topRight: Radius.circular(24),
